@@ -14,6 +14,8 @@ public class Frames {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("https://demo.automationtesting.in/Frames.html");
+		
+		
 		// WebElement frameAddress =driver.findElement(By.xpath("//iframe[@id='singleframe']"));
 
 		 
