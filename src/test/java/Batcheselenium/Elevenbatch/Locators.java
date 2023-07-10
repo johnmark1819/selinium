@@ -11,6 +11,7 @@ public class Locators {
 		WebDriver driver;
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.manage().deleteAllCookies();
 		
 		driver.get("https://www.facebook.com/login/");
